@@ -1,0 +1,35 @@
+---
+- hosts: all
+  become: true
+  vars:
+    ansible_pkg_mgr: apt
+  pre_tasks:
+    - name: Ensure dpkg is configured
+      raw: sudo dpkg --configure -a
+      ignore_errors: yes
+
+  tasks:
+    - name: Update cache and upgrade packages
+      apt:
+        update_cache: yes
+        upgrade: yes
+        cache_valid_time: 86400
+
+- hosts: control
+  become: true
+  tasks:
+    - name: fetch logs from control mode
+      fetch:
+        src: "/var/log/{{ item }}"
+        dest: "logs/"
+        flat: yes
+      with_items:
+        - syslog
+        - auth.log
+        - kern.log
+        - apport.log
+        - alternatives.log
+        - boot.log
+        - dpkg.log
+        - gpu-manager.log
+        - ubuntu-advantage.log
