@@ -1,0 +1,90 @@
+2024-03-18 19:57:07,079 - ua_update_messaging.py:(347) [DEBUG]: Updating UA messages for APT and MOTD.
+2024-03-18 19:57:07,080 - util.py:(419) [DEBUG]: Reading file: /etc/os-release
+2024-03-18 19:57:07,086 - util.py:(419) [DEBUG]: Reading file: /var/lib/ubuntu-advantage/private/machine-token.json
+2024-03-18 19:57:07,086 - config.py:(442) [DEBUG]: File does not exist: /var/lib/ubuntu-advantage/private/machine-token.json
+2024-03-18 19:57:07,090 - util.py:(419) [DEBUG]: Reading file: /var/lib/ubuntu-advantage/private/machine-token.json
+2024-03-18 19:57:07,090 - config.py:(442) [DEBUG]: File does not exist: /var/lib/ubuntu-advantage/private/machine-token.json
+2024-03-18 19:57:07,090 - util.py:(419) [DEBUG]: Reading file: /var/lib/ubuntu-advantage/private/machine-token.json
+2024-03-18 19:57:07,090 - config.py:(442) [DEBUG]: File does not exist: /var/lib/ubuntu-advantage/private/machine-token.json
+2024-03-18 19:57:07,090 - util.py:(676) [DEBUG]: Writing file: /var/lib/ubuntu-advantage/messages/ubuntu-no-warranty
+2024-03-18 19:57:07,093 - util.py:(419) [DEBUG]: Reading file: /var/lib/ubuntu-advantage/private/machine-token.json
+2024-03-18 19:57:07,093 - config.py:(442) [DEBUG]: File does not exist: /var/lib/ubuntu-advantage/private/machine-token.json
+2024-03-18 19:57:07,093 - util.py:(676) [DEBUG]: Writing file: /var/lib/ubuntu-advantage/messages/apt-pre-invoke-no-packages-infra.tmpl
+2024-03-18 19:57:07,093 - util.py:(676) [DEBUG]: Writing file: /var/lib/ubuntu-advantage/messages/apt-pre-invoke-packages-infra.tmpl
+2024-03-18 20:20:24,107 - ua_update_messaging.py:(347) [DEBUG]: Updating UA messages for APT and MOTD.
+2024-03-18 20:20:24,108 - util.py:(419) [DEBUG]: Reading file: /etc/os-release
+2024-03-18 20:20:24,118 - util.py:(419) [DEBUG]: Reading file: /var/lib/ubuntu-advantage/private/machine-token.json
+2024-03-18 20:20:24,119 - config.py:(442) [DEBUG]: File does not exist: /var/lib/ubuntu-advantage/private/machine-token.json
+2024-03-18 20:20:24,126 - util.py:(419) [DEBUG]: Reading file: /var/lib/ubuntu-advantage/private/machine-token.json
+2024-03-18 20:20:24,126 - config.py:(442) [DEBUG]: File does not exist: /var/lib/ubuntu-advantage/private/machine-token.json
+2024-03-18 20:20:24,126 - util.py:(419) [DEBUG]: Reading file: /var/lib/ubuntu-advantage/private/machine-token.json
+2024-03-18 20:20:24,126 - config.py:(442) [DEBUG]: File does not exist: /var/lib/ubuntu-advantage/private/machine-token.json
+2024-03-18 20:20:24,126 - util.py:(676) [DEBUG]: Writing file: /var/lib/ubuntu-advantage/messages/ubuntu-no-warranty
+2024-03-18 20:20:24,130 - util.py:(419) [DEBUG]: Reading file: /var/lib/ubuntu-advantage/private/machine-token.json
+2024-03-18 20:20:24,130 - config.py:(442) [DEBUG]: File does not exist: /var/lib/ubuntu-advantage/private/machine-token.json
+2024-03-18 20:20:24,130 - util.py:(676) [DEBUG]: Writing file: /var/lib/ubuntu-advantage/messages/apt-pre-invoke-no-packages-infra.tmpl
+2024-03-18 20:20:24,131 - util.py:(676) [DEBUG]: Writing file: /var/lib/ubuntu-advantage/messages/apt-pre-invoke-packages-infra.tmpl
+["2024-03-18T22:43:00.777", "DEBUG", "ubuntupro.config", "parse_config", 625, "Using client configuration file at /etc/ubuntu-advantage/uaclient.conf", {}]
+["2024-03-18T22:43:00.778", "DEBUG", "ubuntupro.system", "load_file", 517, "Reading file: /etc/ubuntu-advantage/uaclient.conf", {}]
+["2024-03-18T22:43:00.779", "DEBUG", "ubuntupro.files.files", "read", 60, "Tried to load /var/lib/ubuntu-advantage/user-config.json but file does not exist", {}]
+["2024-03-18T22:43:00.780", "DEBUG", "ubuntupro.system", "load_file", 517, "Reading file: /etc/os-release", {}]
+["2024-03-18T22:43:00.787", "DEBUG", "ubuntupro.system", "ensure_folder_absent", 729, "Tried to remove /var/lib/ubuntu-advantage/apt-esm/ but folder does not exist", {}]
+["2024-03-18T22:43:00.787", "DEBUG", "ubuntupro.system", "create_file", 523, "Creating file: /var/lib/ubuntu-advantage/apt-esm/etc/apt/sources.list", {}]
+["2024-03-18T22:43:00.787", "DEBUG", "ubuntupro.system", "create_file", 523, "Creating file: /var/lib/ubuntu-advantage/apt-esm/var/lib/dpkg/status", {}]
+["2024-03-18T22:43:00.790", "DEBUG", "ubuntupro.config", "parse_config", 625, "Using client configuration file at /etc/ubuntu-advantage/uaclient.conf", {}]
+["2024-03-18T22:43:00.791", "DEBUG", "ubuntupro.system", "load_file", 517, "Reading file: /etc/ubuntu-advantage/uaclient.conf", {}]
+["2024-03-18T22:43:00.792", "DEBUG", "ubuntupro.files.files", "read", 60, "Tried to load /var/lib/ubuntu-advantage/user-config.json but file does not exist", {}]
+["2024-03-18T22:43:00.813", "DEBUG", "ubuntupro.config", "read_cache", 443, "File does not exist: /var/lib/ubuntu-advantage/status.json", {}]
+["2024-03-18T22:43:00.813", "DEBUG", "ubuntupro.files.files", "read", 60, "Tried to load /var/lib/ubuntu-advantage/private/machine-token.json but file does not exist", {}]
+["2024-03-18T22:43:00.813", "DEBUG", "ubuntupro.system", "load_file", 517, "Reading file: /proc/version_signature", {}]
+["2024-03-18T22:43:01.803", "DEBUG", "ubuntupro.files.files", "read", 60, "Tried to load /var/lib/ubuntu-advantage/private/machine-token.json but file does not exist", {}]
+["2024-03-18T22:43:01.804", "DEBUG", "ubuntupro.http", "readurl", 354, "URL [GET]: https://contracts.canonical.com/v1/resources?architecture=amd64&kernel=5.4.0-150-generic&series=bionic&virt=oracle, headers: {'accept': 'application/json', 'content-type': 'application/json', 'user-agent': 'UA-Client/31.2~18.04'}, data: None", {}]
+["2024-03-18T22:43:01.805", "DEBUG", "ubuntupro.http", "should_use_pycurl", 208, "Should use pycurl: False", {}]
+["2024-03-18T22:43:03.074", "DEBUG", "ubuntupro.http", "readurl", 389, "URL [GET] response: https://contracts.canonical.com/v1/resources?architecture=amd64&kernel=5.4.0-150-generic&series=bionic&virt=oracle, headers: {'accept-ranges': 'bytes', 'cache-control': 'no-store, max-age=0', 'connection': 'close', 'content-length': '816', 'content-type': 'application/json', 'date': 'Mon, 18 Mar 2024 14:43:02 GMT', 'server': 'nginx/1.18.0 (Ubuntu)', 'strict-transport-security': 'max-age=15724800; includeSubDomains', 'x-cache-status': 'MISS from content-cache-il3/1', 'x-trace-id': 'd1016a8d-8f70-404a-8370-215ec6ed7b14'}, data: {'resources': [{'available': False, 'name': 'anbox-cloud'}, {'available': True, 'name': 'anbox-images'}, {'available': True, 'name': 'cc'}, {'available': True, 'name': 'cc-eal'}, {'available': True, 'name': 'cis'}, {'available': False, 'name': 'esm'}, {'available': True, 'name': 'esm-apps'}, {'available': False, 'name': 'esm-apps-python'}, {'available': True, 'name': 'esm-infra'}, {'available': False, 'name': 'esm-python'}, {'available': False, 'name': 'esm-ros'}, {'available': True, 'name': 'fips'}, {'available': False, 'name': 'fips-preview'}, {'available': True, 'name': 'fips-updates'}, {'available': False, 'name': 'landscape'}, {'available': True, 'name': 'livepatch'}, {'available': True, 'name': 'livepatch-onprem'}, {'available': False, 'name': 'realtime-kernel'}, {'available': True, 'name': 'ros'}, {'available': True, 'name': 'ros-updates'}, {'available': True, 'name': 'support'}]}", {}]
+["2024-03-18T22:43:03.074", "DEBUG", "ubuntupro.status", "_unattached_status", 298, "Ignoring availability of unknown service anbox-images from contract server", {}]
+["2024-03-18T22:43:03.074", "DEBUG", "ubuntupro.status", "_unattached_status", 298, "Ignoring availability of unknown service cc from contract server", {}]
+["2024-03-18T22:43:03.075", "DEBUG", "ubuntupro.status", "_unattached_status", 298, "Ignoring availability of unknown service esm from contract server", {}]
+["2024-03-18T22:43:03.075", "DEBUG", "ubuntupro.status", "_unattached_status", 298, "Ignoring availability of unknown service esm-apps-python from contract server", {}]
+["2024-03-18T22:43:03.075", "DEBUG", "ubuntupro.status", "_unattached_status", 298, "Ignoring availability of unknown service esm-python from contract server", {}]
+["2024-03-18T22:43:03.075", "DEBUG", "ubuntupro.status", "_unattached_status", 298, "Ignoring availability of unknown service esm-ros from contract server", {}]
+["2024-03-18T22:43:03.076", "DEBUG", "ubuntupro.livepatch", "status", 126, "canonical-livepatch is not installed", {}]
+["2024-03-18T22:43:03.076", "DEBUG", "ubuntupro.files.files", "read", 60, "Tried to load /run/ubuntu-advantage/livepatch-kernel-support-cache.json but file does not exist", {}]
+["2024-03-18T22:43:03.076", "DEBUG", "ubuntupro.livepatch", "on_supported_kernel", 361, "using livepatch support api", {}]
+["2024-03-18T22:43:03.076", "DEBUG", "ubuntupro.config", "parse_config", 625, "Using client configuration file at /etc/ubuntu-advantage/uaclient.conf", {}]
+["2024-03-18T22:43:03.076", "DEBUG", "ubuntupro.system", "load_file", 517, "Reading file: /etc/ubuntu-advantage/uaclient.conf", {}]
+["2024-03-18T22:43:03.077", "DEBUG", "ubuntupro.files.files", "read", 60, "Tried to load /var/lib/ubuntu-advantage/user-config.json but file does not exist", {}]
+["2024-03-18T22:43:03.077", "DEBUG", "ubuntupro.http", "readurl", 354, "URL [GET]: https://livepatch.canonical.com/v1/api/kernels/supported?architecture=amd64&build-date=2023-05-24T00%3A51%3A42%2B00%3A00&codename=bionic&flavour=generic&kernel-version=5.4, headers: {'accept': 'application/json', 'content-type': 'application/json', 'user-agent': 'UA-Client/31.2~18.04'}, data: None", {}]
+["2024-03-18T22:43:03.077", "DEBUG", "ubuntupro.http", "should_use_pycurl", 208, "Should use pycurl: False", {}]
+["2024-03-18T22:43:05.593", "DEBUG", "ubuntupro.http", "readurl", 389, "URL [GET] response: https://livepatch.canonical.com/v1/api/kernels/supported?architecture=amd64&build-date=2023-05-24T00%3A51%3A42%2B00%3A00&codename=bionic&flavour=generic&kernel-version=5.4, headers: {'accept-ranges': 'bytes', 'cache-control': 'no-store, max-age=0', 'connection': 'close', 'content-length': '58', 'content-type': 'application/json', 'date': 'Mon, 18 Mar 2024 14:43:05 GMT', 'server': 'nginx/1.18.0 (Ubuntu)', 'strict-transport-security': 'max-age=15724800; includeSubDomains', 'x-cache-status': 'MISS from content-cache-il3/1'}, data: {'SruDate': datetime.datetime(2024, 6, 24, 0, 51, 42, tzinfo=datetime.timezone.utc), 'Supported': 'supported'}", {}]
+["2024-03-18T22:43:05.594", "DEBUG", "ubuntupro.system", "write_file", 557, "Writing file /run/ubuntu-advantage/livepatch-kernel-support-cache.json atomically via tempfile /run/ubuntu-advantage/tmpcfzg2zl4", {}]
+["2024-03-18T22:43:05.594", "DEBUG", "ubuntupro.status", "_unattached_status", 298, "Ignoring availability of unknown service livepatch-onprem from contract server", {}]
+["2024-03-18T22:43:05.594", "DEBUG", "ubuntupro.status", "_unattached_status", 298, "Ignoring availability of unknown service support from contract server", {}]
+["2024-03-18T22:43:05.595", "DEBUG", "ubuntupro.system", "write_file", 557, "Writing file /var/lib/ubuntu-advantage/status.json atomically via tempfile /var/lib/ubuntu-advantage/tmpy31wpn5l", {}]
+["2024-03-18T22:43:05.596", "DEBUG", "ubuntupro.files.files", "read", 60, "Tried to load /var/lib/ubuntu-advantage/private/machine-token.json but file does not exist", {}]
+["2024-03-18T22:43:05.596", "DEBUG", "ubuntupro.system", "write_file", 557, "Writing file /var/lib/ubuntu-advantage/apt-esm/etc/apt/sources.list.d/ubuntu-esm-apps.sources atomically via tempfile /var/lib/ubuntu-advantage/apt-esm/etc/apt/sources.list.d/tmpk0icr20m", {}]
+["2024-03-18T22:43:05.598", "DEBUG", "ubuntupro.files.files", "read", 60, "Tried to load /var/lib/ubuntu-advantage/private/machine-token.json but file does not exist", {}]
+["2024-03-18T22:43:05.599", "DEBUG", "ubuntupro.system", "write_file", 557, "Writing file /var/lib/ubuntu-advantage/apt-esm/etc/apt/sources.list.d/ubuntu-esm-infra.sources atomically via tempfile /var/lib/ubuntu-advantage/apt-esm/etc/apt/sources.list.d/tmpsl2eoid1", {}]
+["2024-03-18T22:43:07.774", "DEBUG", "ubuntupro.apt", "done", 891, "Fetched ESM Apt Cache item: gpgv:/var/lib/ubuntu-advantage/apt-esm/var/lib/apt/lists/partial/esm.ubuntu.com_apps_ubuntu_dists_bionic-apps-security_InRelease", {}]
+["2024-03-18T22:43:07.822", "DEBUG", "ubuntupro.apt", "done", 891, "Fetched ESM Apt Cache item: gpgv:/var/lib/ubuntu-advantage/apt-esm/var/lib/apt/lists/partial/esm.ubuntu.com_apps_ubuntu_dists_bionic-apps-security_InRelease", {}]
+["2024-03-18T22:43:08.177", "DEBUG", "ubuntupro.apt", "done", 891, "Fetched ESM Apt Cache item: gpgv:/var/lib/ubuntu-advantage/apt-esm/var/lib/apt/lists/partial/esm.ubuntu.com_apps_ubuntu_dists_bionic-apps-updates_InRelease", {}]
+["2024-03-18T22:43:08.227", "DEBUG", "ubuntupro.apt", "done", 891, "Fetched ESM Apt Cache item: gpgv:/var/lib/ubuntu-advantage/apt-esm/var/lib/apt/lists/partial/esm.ubuntu.com_apps_ubuntu_dists_bionic-apps-updates_InRelease", {}]
+["2024-03-18T22:43:08.589", "DEBUG", "ubuntupro.apt", "done", 891, "Fetched ESM Apt Cache item: gpgv:/var/lib/ubuntu-advantage/apt-esm/var/lib/apt/lists/partial/esm.ubuntu.com_infra_ubuntu_dists_bionic-infra-security_InRelease", {}]
+["2024-03-18T22:43:08.635", "DEBUG", "ubuntupro.apt", "done", 891, "Fetched ESM Apt Cache item: gpgv:/var/lib/ubuntu-advantage/apt-esm/var/lib/apt/lists/partial/esm.ubuntu.com_infra_ubuntu_dists_bionic-infra-security_InRelease", {}]
+["2024-03-18T22:43:08.986", "DEBUG", "ubuntupro.apt", "done", 891, "Fetched ESM Apt Cache item: gpgv:/var/lib/ubuntu-advantage/apt-esm/var/lib/apt/lists/partial/esm.ubuntu.com_infra_ubuntu_dists_bionic-infra-updates_InRelease", {}]
+["2024-03-18T22:43:09.032", "DEBUG", "ubuntupro.apt", "done", 891, "Fetched ESM Apt Cache item: gpgv:/var/lib/ubuntu-advantage/apt-esm/var/lib/apt/lists/partial/esm.ubuntu.com_infra_ubuntu_dists_bionic-infra-updates_InRelease", {}]
+["2024-03-18T22:43:10.465", "DEBUG", "ubuntupro.apt", "done", 891, "Fetched ESM Apt Cache item: store:/var/lib/ubuntu-advantage/apt-esm/var/lib/apt/lists/partial/esm.ubuntu.com_apps_ubuntu_dists_bionic-apps-security_main_binary-amd64_Packages.gz", {}]
+["2024-03-18T22:43:10.479", "DEBUG", "ubuntupro.apt", "done", 891, "Fetched ESM Apt Cache item: store:/var/lib/ubuntu-advantage/apt-esm/var/lib/apt/lists/partial/esm.ubuntu.com_apps_ubuntu_dists_bionic-apps-security_main_binary-amd64_Packages.gz", {}]
+["2024-03-18T22:43:10.948", "DEBUG", "ubuntupro.apt", "done", 891, "Fetched ESM Apt Cache item: store:/var/lib/ubuntu-advantage/apt-esm/var/lib/apt/lists/partial/esm.ubuntu.com_apps_ubuntu_dists_bionic-apps-security_main_binary-i386_Packages.gz", {}]
+["2024-03-18T22:43:10.957", "DEBUG", "ubuntupro.apt", "done", 891, "Fetched ESM Apt Cache item: store:/var/lib/ubuntu-advantage/apt-esm/var/lib/apt/lists/partial/esm.ubuntu.com_apps_ubuntu_dists_bionic-apps-updates_main_binary-i386_Packages.gz", {}]
+["2024-03-18T22:43:10.962", "DEBUG", "ubuntupro.apt", "done", 891, "Fetched ESM Apt Cache item: store:/var/lib/ubuntu-advantage/apt-esm/var/lib/apt/lists/partial/esm.ubuntu.com_apps_ubuntu_dists_bionic-apps-security_main_binary-i386_Packages.gz", {}]
+["2024-03-18T22:43:10.963", "DEBUG", "ubuntupro.apt", "done", 891, "Fetched ESM Apt Cache item: store:/var/lib/ubuntu-advantage/apt-esm/var/lib/apt/lists/partial/esm.ubuntu.com_apps_ubuntu_dists_bionic-apps-updates_main_binary-i386_Packages.gz", {}]
+["2024-03-18T22:43:10.977", "DEBUG", "ubuntupro.apt", "done", 891, "Fetched ESM Apt Cache item: store:/var/lib/ubuntu-advantage/apt-esm/var/lib/apt/lists/partial/esm.ubuntu.com_apps_ubuntu_dists_bionic-apps-updates_main_binary-amd64_Packages.gz", {}]
+["2024-03-18T22:43:10.978", "DEBUG", "ubuntupro.apt", "done", 891, "Fetched ESM Apt Cache item: store:/var/lib/ubuntu-advantage/apt-esm/var/lib/apt/lists/partial/esm.ubuntu.com_apps_ubuntu_dists_bionic-apps-updates_main_binary-amd64_Packages.gz", {}]
+["2024-03-18T22:43:11.840", "DEBUG", "ubuntupro.apt", "done", 891, "Fetched ESM Apt Cache item: store:/var/lib/ubuntu-advantage/apt-esm/var/lib/apt/lists/partial/esm.ubuntu.com_infra_ubuntu_dists_bionic-infra-security_main_binary-amd64_Packages.gz", {}]
+["2024-03-18T22:43:11.913", "DEBUG", "ubuntupro.apt", "done", 891, "Fetched ESM Apt Cache item: store:/var/lib/ubuntu-advantage/apt-esm/var/lib/apt/lists/partial/esm.ubuntu.com_infra_ubuntu_dists_bionic-infra-security_main_binary-amd64_Packages.gz", {}]
+["2024-03-18T22:43:11.926", "DEBUG", "ubuntupro.apt", "done", 891, "Fetched ESM Apt Cache item: store:/var/lib/ubuntu-advantage/apt-esm/var/lib/apt/lists/partial/esm.ubuntu.com_infra_ubuntu_dists_bionic-infra-security_main_binary-i386_Packages.gz", {}]
+["2024-03-18T22:43:11.930", "DEBUG", "ubuntupro.apt", "done", 891, "Fetched ESM Apt Cache item: store:/var/lib/ubuntu-advantage/apt-esm/var/lib/apt/lists/partial/esm.ubuntu.com_infra_ubuntu_dists_bionic-infra-updates_main_binary-amd64_Packages.gz", {}]
+["2024-03-18T22:43:11.935", "DEBUG", "ubuntupro.apt", "done", 891, "Fetched ESM Apt Cache item: store:/var/lib/ubuntu-advantage/apt-esm/var/lib/apt/lists/partial/esm.ubuntu.com_infra_ubuntu_dists_bionic-infra-updates_main_binary-i386_Packages.gz", {}]
+["2024-03-18T22:43:11.943", "DEBUG", "ubuntupro.apt", "done", 891, "Fetched ESM Apt Cache item: store:/var/lib/ubuntu-advantage/apt-esm/var/lib/apt/lists/partial/esm.ubuntu.com_infra_ubuntu_dists_bionic-infra-security_main_binary-i386_Packages.gz", {}]
+["2024-03-18T22:43:11.945", "DEBUG", "ubuntupro.apt", "done", 891, "Fetched ESM Apt Cache item: store:/var/lib/ubuntu-advantage/apt-esm/var/lib/apt/lists/partial/esm.ubuntu.com_infra_ubuntu_dists_bionic-infra-updates_main_binary-amd64_Packages.gz", {}]
+["2024-03-18T22:43:11.946", "DEBUG", "ubuntupro.apt", "done", 891, "Fetched ESM Apt Cache item: store:/var/lib/ubuntu-advantage/apt-esm/var/lib/apt/lists/partial/esm.ubuntu.com_infra_ubuntu_dists_bionic-infra-updates_main_binary-i386_Packages.gz", {}]
